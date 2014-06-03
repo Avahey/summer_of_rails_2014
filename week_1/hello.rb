@@ -1,1 +1,1 @@
-puts "I can use Git now!"
+puts "Hello, #{ARGV.first}!"
