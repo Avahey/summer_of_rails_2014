@@ -1,6 +1,6 @@
 class BankAccount
   def to_s
-    "0.00"
+    sprintf("$%.2f", self.balance)
   end
   
   def balance
@@ -12,3 +12,5 @@ end
 
 account = BankAccount.new
 puts account.balance
+puts account.to_s
+
