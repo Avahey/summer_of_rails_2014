@@ -28,3 +28,7 @@ end
 
 puts people.length
 
+people.each do |person|
+  puts "Name: #{person[:first_name]} #{person[:last_name]}"
+  puts "Age: #{person[:age]}"
+end
