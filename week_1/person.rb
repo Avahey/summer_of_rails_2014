@@ -28,25 +28,3 @@ end
 
 puts people.length
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-puts "What is your first name?"
-first_name = gets.chop
-
-puts "What is your last name?"
-last_name = gets.chop
-
-puts "What is your age?"
-age = gets.chop
-
